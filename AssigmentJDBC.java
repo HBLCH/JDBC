@@ -1,4 +1,4 @@
-package com.behar;
+package hb;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,8 +16,7 @@ public class AssigmentJDBC {
 	public static void main(String[] args) throws IOException, SQLException {
 		char choice;
 		Scanner scanner = new Scanner(System.in);
-		File myObj = new File("C:\\Required Software Packages\\Eclipse-Workspace\\JDBC\\"
-				+ "src\\main\\java\\com\\behar\\toRead.txt");
+		File myObj = new File("./relativePath/toRead.txt");
 		Scanner in = new Scanner(myObj);
 		final String password = in.nextLine();
 
